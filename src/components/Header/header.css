@@ -1,0 +1,41 @@
+header#main-header{
+    background: #272727;
+    height: 72px;
+}
+
+header#main-header .header-content {
+    width: 100%;
+    max-width: 930px;
+    height: 72px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header .header-content a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+header#main-header .header-content a span {
+    color: #00c2ff;
+}
+
+header#main-header .header-content a.user-button {
+    letter-spacing: 0;
+    font-size: 20px;
+    border: 1px solid #272727;
+    border-radius: 100px;
+    padding: 10px 18px;
+    background: #ffffff23;
+    transition: all ease-out .5s;
+}
+header#main-header .header-content .user-button:hover {
+    color: #00c2ff;
+    border-color: #00c2ff;
+    background: #272727;
+}
