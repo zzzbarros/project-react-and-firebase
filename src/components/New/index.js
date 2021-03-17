@@ -94,7 +94,7 @@ class New extends Component {
 
     render(){
         return(
-            <div>
+            <div id="new-content">
 
                <header id="new">
                     <Link to="/dashboard">voltar</Link>
