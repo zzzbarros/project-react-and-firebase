@@ -35,7 +35,7 @@ class Register extends Component {
 
     render(){
         return(
-            <div>
+            <div id="main-content">
                 <h1 className="register-h1">Novo Usuario</h1>
                 <form onSubmit={this.register} id="register">
                     <label>Nome:</label>
